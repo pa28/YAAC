@@ -26,7 +26,7 @@ set(CPACK_PACKAGE_CONTACT "Richard Buckley")
 set(CPACK_RPM_PACKAGE_GROUP "Applications/Productivity")
 set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
 set(CPACK_PACKAGING_INSTALL_PREFIX ${CMAKE_INSTALL_PREFIX})
-set(CPACK_DEBIAN_PACKAGE_DEPENDS "openjdk-11-jre-headless (= 11.0.11+9-0ubuntu2~20.04), openjdk-11-jre (= 11.0.11+9-0ubuntu2~20.04)")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "openjdk-11-jre-headless, openjdk-11-jre")
 set(CPACK_RPM_EXCLUDE_FROM_AUTO_FILELIST_ADDITION
         /usr/local
         /usr/local/bin
