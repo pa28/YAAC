@@ -17,7 +17,7 @@ and update YAAC as they use for other software.
 ## Creating the Package
 
 Ensure requirements are installed
-```
+```shell script
 sudo apt install git cmake wget
 ```
 
