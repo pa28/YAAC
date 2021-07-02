@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Fetch YAAC"
+echo "Fetching YAAC.zip from https://www.ka2ddo.org/ka2ddo/YAAC.zip"
 
 mkdir -p resources/YAAC
 
