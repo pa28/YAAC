@@ -24,7 +24,7 @@ sudo apt install git cmake wget
 Get the git repository and build.
 
 ```shell script
-git clone https://github.com/pa28/YACC.git
+git clone https://github.com/pa28/YAAC.git
 cd YAAC
 mkdir cmake-build-release
 cd cmake-build-release
