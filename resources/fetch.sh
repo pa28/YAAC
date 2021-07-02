@@ -2,7 +2,7 @@
 
 echo "Fetch YAAC"
 
-mkdir -p YAAC
+mkdir -p resources/YAAC
 
 cat << END > YAAC.sh
 #!/bin/bash
