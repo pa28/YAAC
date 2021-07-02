@@ -2,6 +2,8 @@
 
 echo "Fetch YAAC"
 
+mkdir -p YAAC
+
 cat << END > YAAC.sh
 #!/bin/bash
 /usr/bin/java -jar /usr/local/share/YAAC/YAAC.jar
