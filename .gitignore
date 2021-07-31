@@ -1,4 +1,4 @@
 cmake-build-*
 .idea
-resources/YACC/*
+resources/YAAC
 resources/YACC.zip
