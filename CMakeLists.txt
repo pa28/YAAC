@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(YAAC VERSION 0.1.163.1)
+project(YAAC VERSION 0.1.164.1)
 
 include(GNUInstallDirs)
 
@@ -26,7 +26,7 @@ set(CPACK_PACKAGE_CONTACT "Richard Buckley")
 set(CPACK_RPM_PACKAGE_GROUP "Applications/Productivity")
 set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
 set(CPACK_PACKAGING_INSTALL_PREFIX ${CMAKE_INSTALL_PREFIX})
-set(CPACK_DEBIAN_PACKAGE_DEPENDS "openjdk-11-jre-headless, openjdk-11-jre")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "openjdk-12-jre-headless, openjdk-12-jre")
 set(CPACK_RPM_EXCLUDE_FROM_AUTO_FILELIST_ADDITION
         /usr/local
         /usr/local/bin
