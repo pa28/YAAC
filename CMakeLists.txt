@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(YAAC VERSION 0.1.163.1)
+project(YAAC VERSION 0.1.165.1)
 
 include(GNUInstallDirs)
 
